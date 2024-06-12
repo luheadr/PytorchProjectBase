@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:24.01-py3
+FROM openvino/ubuntu22_runtime:latest
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
